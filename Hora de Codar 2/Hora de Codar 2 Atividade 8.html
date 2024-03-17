@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2 Atividade 8</title>
+    <script>
+        var texto = ("Informe 4 valores.")
+        alert(texto)
+
+        var um = parseFloat(prompt("Informe o primeiro valor: "))
+        var dois = parseFloat(prompt("Informe o segundo valor: "))
+        var tres = parseFloat(prompt("Informe o terceiro valor: "))
+        var quatro = parseFloat(prompt("Informe o quarto valor: "))
+
+        let maior = 10
+        let menor1 = 0
+        let menor2 = 0
+        let menor3 = 0
+        let menor4 = 0
+
+        if (um > maior){
+            maior = maior
+        }else if (um < maior){
+            menor1 = um
+        }
+
+        if (dois > maior){
+            maior = maior
+        }else if (dois < maior){
+            menor2 = dois
+        }
+
+        if (tres > maior){
+            maior = maior
+        }else if (tres < maior){
+            menor3 = tres
+        }
+
+        if (quatro > maior){
+            maior = maior
+        }else if (quatro < maior){
+            menor4 = quatro
+        }
+
+        var media = (menor1 + menor2 + menor3 + menor4) / 4
+
+        if (media > 5){
+            alert("Você passou no teste.")
+        }else if (media < 5){
+            alert("Tente novamente.")
+        } 
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

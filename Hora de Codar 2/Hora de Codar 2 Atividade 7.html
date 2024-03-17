@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2 Atividade 7</title>
+    <script>
+        var texto = ("Informe 6 valores.")
+        alert(texto)
+
+        var um = parseFloat(prompt("Informe o primeiro valor: "))
+        var dois = parseFloat(prompt("Informe o segundo valor: "))
+        var tres = parseFloat(prompt("Informe o terceiro valor: "))
+        var quatro = parseFloat(prompt("Informe o quarto valor: "))
+        var cinco = parseFloat(prompt("Informe o quinto valor: "))
+        var seis = parseFloat(prompt("Informe o sexto valor: "))
+
+        let maior = 72
+        let menor1 = 0
+        let menor2 = 0
+        let menor3 = 0
+        let menor4 = 0
+        let menor5 = 0
+        let menor6 = 0
+
+        if (um > maior){
+            maior = maior
+        }else if (um < maior){
+            menor1 = um
+        }
+
+        if (dois > maior){
+            maior = maior
+        }else if (dois < maior){
+            menor2 = dois
+        }
+
+        if (tres > maior){
+            maior = maior
+        }else if (tres < maior){
+            menor3 = tres
+        }
+
+        if (quatro > maior){
+            maior = maior
+        }else if (quatro < maior){
+            menor4 = quatro
+        }
+
+        if (cinco > maior){
+            maior = maior
+        }else if (cinco < maior){
+            menor5 = cinco
+        }
+
+        if (seis > maior){
+            maior = maior
+        }else if (seis < maior){
+            menor6 = seis
+        }
+
+        var somatotal = menor1 + menor2 + menor3 + menor4 + menor5 + menor6
+        var resultado = (somatotal + ", " + um + ", " + dois + ", " + tres + ", " + quatro + ", " + cinco + "," + seis + ".")
+        alert(resultado)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

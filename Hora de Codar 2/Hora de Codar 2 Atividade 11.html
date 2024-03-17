@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2 Atividade 11</title>
+    <script>
+        var texto = ("Informe 2 números inteiros.")
+        alert(texto)
+
+        var primeironumber = parseInt(prompt("Informe o primeriro número: "))
+        var segundonumber = parseInt(prompt("Informe o segundo número: "))
+
+        var escolha = parseInt(prompt("Informe a operação que será executada: Adição = 1 | Subtração = 2 | Divisão = 3 | Multiplicação = 4 "))
+        switch(escolha){
+            case 1:
+            var adicao = primeironumber + segundonumber
+            alert("O resultado é: " + adicao) 
+            break
+            
+            case 2:
+            var subtracao = primeironumber - segundonumber
+            alert("O resultado é: " + subtracao) 
+            break
+
+            case 3:
+            var divisao = primeironumber / segundonumber
+            alert("O resultado é: " + divisao) 
+            break
+            
+            case 4:
+            var multiplicacao = primeironumber * segundonumber
+            alert("O resultado é: " + multiplicacao) 
+            break
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
